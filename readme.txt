@@ -1,0 +1,4 @@
+A fejlesztési környezet telepítésének lépései:
+1. Töltsd le a kapott link alapján a könyvtárat!
+2. A letöltési mappából helyezd át a könyvtárat a neked megfelelő helyre! Ha a könyvtár tömörített, akkor végezd el a kibontást is!
+A könyvtárban keresd meg a greetings.html fájlt, és az egérrel duplán kattintva nyisd meg! A fájl ekkor az alapértelmezett böngészőben fog megnyílni. Javaslom, hogy a fájlt Google Chrome böngészőben nyisd meg, ehhez kövesd a következő lépéseket: jelöld ki a greetings.html fájlt -> jobb egér gomb megnyomásával válaszd ki a Társítás lehetőséget -> a listából válaszd ki a Google Chrome böngészőt! Ekkor a fájl a Google Chrome böngészőben fog megnyílni
