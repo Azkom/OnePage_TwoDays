@@ -10,3 +10,114 @@ body {
   color: #fff;
   line-height: 1.6;
 }
+/* Header rész formázása */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: url("images/main_page.jpg") no-repeat center center/cover;
+  height: 50vh;
+}
+nav {
+  position: fixed;
+  top: 0;
+  height: 70px;
+  background-color: black;
+  color: #ffffff;
+  width: 100%;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+nav ul li a {
+  padding: 0 24px;
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid rgb(0, 165, 145);
+  padding-bottom: 6px;
+}
+/* Rólam (about) rész formázása */
+section#about {
+  margin-top: 70px;
+}
+.img-container img {
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 50%;
+}
+.img-container {
+  flex: 1;
+}
+.description {
+  flex: 2;
+}
+.description h2 {
+  padding: 16px;
+}
+.description h4 {
+  display: inline-block;
+  padding: 8px 0 8px 16px;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+}
+/* Kedvencem rész formázása */
+.kedvencem {
+  background-color: rgb(0, 165, 145);
+  padding: 20px;
+}
+section#kedvencem h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+img {
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+  height: auto;
+  border: 10px solid white;
+  border-radius: 8px;
+}
+.flex-container {
+  display: flex;
+}
+.column {
+  flex: 1;
+}
+.kedvenc-bal {
+  padding: 20px;
+  text-align: right;
+}
+.kedvenc-bal h3,
+.kedvenc-jobb h3 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.kedvenc-bal ul {
+  list-style-type: none;
+}
+.kedvenc-jobb {
+  padding: 20px;
+  border-left: 2px solid white;
+}
+.kedvenc-jobb ol {
+  margin-left: 20px;
+}
+/* Footer rész formázása */
+footer {
+  height: 70px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
